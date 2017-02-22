@@ -1,0 +1,26 @@
+﻿extends layout
+
+block style
+    link(rel='stylesheet', href='/stylesheets/dwarfs.css')
+
+block content
+    div(id='dwarfs-main')
+        a(href='/') Go Back
+        table(id='raft')
+            tr
+                td(class='barrel')
+                td
+                td
+            tr
+                td(class='barrel')
+                td
+                td
+            tr
+                td(class='dwarf')
+                td
+                td
+
+        div(id='solution')
+
+block scripts
+    script(type='text/javascript' src='/javascripts/dwarfs.js')

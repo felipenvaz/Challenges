@@ -1,0 +1,13 @@
+﻿#raft td {
+	height: 20px;
+	width: 20px;
+	border: 1px solid black;
+}
+
+#raft td.barrel {
+	background-color: green;
+}
+
+#raft td.dwarf {
+	background-color: rebeccapurple;
+}

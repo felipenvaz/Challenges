@@ -6,4 +6,12 @@ router.get('/', function (req, res) {
     res.render('index', { title: 'Challenges' });
 });
 
+router.get('/brackets', function (req, res) {
+    res.render('brackets', { });
+});
+
+router.get('/dwarfsrafting', function (req, res) {
+    res.render('dwarfs', {});
+});
+
 module.exports = router;

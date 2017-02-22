@@ -1,5 +1,5 @@
 ﻿$(function () {
-    $main = $('#main');
+    $main = $('#brackets-solution');
 
     for (let i = 0; i < 10; i++) {
         var sample = generateSample();

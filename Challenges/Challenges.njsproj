@@ -32,18 +32,23 @@
   <ItemGroup>
     <Compile Include="app.js" />
     <Compile Include="public\javascripts\brackets.js" />
+    <Compile Include="public\javascripts\dwarfs.js" />
     <Compile Include="public\javascripts\helper.js" />
     <Compile Include="public\javascripts\horseChess.js" />
+    <Compile Include="public\javascripts\IL.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\users.js" />
     <Compile Include="bin\www" />
     <Content Include="package.json" />
     <Content Include="public\stylesheets\style.styl" />
+    <Content Include="public\stylesheets\dwarfs.css" />
     <Content Include="README.md" />
     <Content Include="typings.json" />
+    <Content Include="views\brackets.pug" />
     <Content Include="views\index.pug" />
     <Content Include="views\layout.pug" />
     <Content Include="views\error.pug" />
+    <Content Include="views\dwarfs.pug" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />
