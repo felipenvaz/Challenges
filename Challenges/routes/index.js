@@ -14,4 +14,8 @@ router.get('/dwarfsrafting', function (req, res) {
     res.render('dwarfs', {});
 });
 
+router.get('/flooddepth', function (req, res) {
+    res.render('flooddepth', {});
+});
+
 module.exports = router;
