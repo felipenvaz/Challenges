@@ -1,0 +1,13 @@
+{
+  "name": "challenges",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "description": "Challenges",
+  "author": {
+    "name": "Felipe"
+  },
+  "dependencies": {}
+}
