@@ -40,8 +40,11 @@ const isPalindrome = (arg) => {
   return true;
 };
 
+const getSequence = n => [...Array(n)].map((v, i) => i + 1);
+
 module.exports = {
   getPrimeFactors,
   isPrime,
   isPalindrome,
+  getSequence,
 };

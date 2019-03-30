@@ -1,1 +1,1 @@
-require('./project_euler/5');
+require('./project_euler/8');

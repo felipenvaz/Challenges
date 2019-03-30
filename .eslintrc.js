@@ -13,7 +13,7 @@ module.exports = {
     ecmaVersion: 2018,
   },
   rules: {
-    'max-len': ["error", { "ignoreComments": true }],
+    'max-len': ["error", { "code": 120, "ignoreComments": true }],
     'no-console': 0,
     'no-plusplus': ["error", { "allowForLoopAfterthoughts": true }],
     'linebreak-style': ["error", "windows"]
