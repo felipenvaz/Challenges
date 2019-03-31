@@ -40,11 +40,24 @@ const isPalindrome = (arg) => {
   return true;
 };
 
-const getSequence = n => [...Array(n)].map((v, i) => i + 1);
+const getSequence = (n, start = 1) => [...Array(n)].map((v, i) => i + start);
+
+const triangleNumbers = [1];
+const getTriagleNumber = (n) => {
+  const finish = () => triangleNumbers.length >= n;
+  let startIdx = triangleNumbers.length + 1;
+  while (!finish()) {
+    triangleNumbers.push(startIdx + triangleNumbers[triangleNumbers.length - 1]);
+    startIdx += 1;
+  }
+
+  return triangleNumbers[n - 1];
+};
 
 module.exports = {
   getPrimeFactors,
   isPrime,
   isPalindrome,
   getSequence,
+  getTriagleNumber,
 };
