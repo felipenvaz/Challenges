@@ -26,8 +26,8 @@ const getNthPrime = (n) => {
   return primes[n - 1];
 };
 
-const getPrimes = (count) => {
-  const finish = currentIdx => currentIdx >= count;
+const getPrimes = (limit) => {
+  const finish = currentIdx => currentIdx >= limit;
   findPrimes(primes[primes.length - 1] + 2, finish);
   return [...primes];
 };

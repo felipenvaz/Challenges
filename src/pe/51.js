@@ -37,7 +37,6 @@ while (!chosenFamily) {
         return { primeFamily, combination };
       });
 
-
       for (let i = 0; i < primeFamilies.length; i++) {
         if (primeFamilies[i].primeFamily.length >= familySize) {
           chosenFamily = primeFamilies[i];
